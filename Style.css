@@ -1,0 +1,94 @@
+.body {
+    position: relative;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.art {
+    border-radius: 5px;
+    width: 700px;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 150px auto;
+}
+
+.image {
+    width: 350px;
+    height: 500px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.parfum {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+.Gabrielle {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 60px;
+    display: inline;
+    font-size: 40px;
+    line-height: 5px;
+}
+
+.floral {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 260px;
+    color: hsl(228, 12%, 48%);
+    font-size: 20px;
+    display: inline;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+.new-price {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 380px;
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    display: inline;
+    font-weight: bold;
+}
+
+.old-price {
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 395px;
+    color: hsl(228, 12%, 48%);
+    display: inline;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+button {
+    position: absolute;
+    font-weight: bold;
+    display: inline;
+    margin-top: 430px;
+    margin-left: 20px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius: 5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
