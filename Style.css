@@ -4,22 +4,22 @@
 }
 
 .continar {
-    margin-top: 200px;
     margin-left: 200px;
     width: 70%;
+    height: 100px;
 }
 
 .art {
     border-radius: 5px;
     width: 700px;
-    height: 500px;
-    background-color: hsl(0, 45%, 55%);
+    height: 420px;
+    background-color: hsl(0, 0%, 100%);
     margin: 150px auto;
 }
 
 .image {
     width: 350px;
-    height: 500px;
+    height: 420px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     display: inline-block;
@@ -28,7 +28,7 @@
 .parfum {
     position: absolute;
     margin-left: 380px;
-    margin-top: 50px;
+    margin-top: 30px;
     letter-spacing: 5px;
     color: hsl(228, 12%, 48%);
     text-transform: uppercase;
@@ -40,7 +40,7 @@
 .Gabrielle {
     position: absolute;
     margin-left: 20px;
-    margin-top: 70px;
+    margin-top: 40px;
     display: inline-block;
     font-size: 32px;
     line-height: 5px;
@@ -49,7 +49,7 @@
 .floral {
     position: absolute;
     margin-left: 25px;
-    margin-top: 230px;
+    margin-top: 190px;
     color: hsl(228, 12%, 48%);
     font-size: 20px;
     display: inline-block;
@@ -60,7 +60,7 @@
 .new-price {
     position: absolute;
     margin-left: 25px;
-    margin-top: 360px;
+    margin-top: 310px;
     color: hsl(158, 36%, 37%);
     font-size: 40px;
     display: inline-block;
@@ -70,7 +70,7 @@
 .old-price {
     position: absolute;
     margin-left: 170px;
-    margin-top: 380px;
+    margin-top: 330px;
     color: hsl(228, 12%, 48%);
     display: inline;
     text-decoration: line-through;
@@ -81,7 +81,7 @@ button {
     position: absolute;
     font-weight: bold;
     display: inline-block;
-    margin-top: 430px;
+    margin-top: 360px;
     margin-left: 20px;
     background-color: hsl(158, 36%, 37%);
     color: white;
