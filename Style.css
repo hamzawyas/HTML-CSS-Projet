@@ -3,6 +3,12 @@
     background-color: hsl(30, 38%, 92%);
 }
 
+.continar {
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 70%;
+}
+
 .art {
     border-radius: 5px;
     width: 700px;
@@ -16,6 +22,7 @@
     height: 500px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    display: inline-block;
 }
 
 .parfum {
@@ -26,26 +33,26 @@
     color: hsl(228, 12%, 48%);
     text-transform: uppercase;
     font-size: 14px;
-    display: inline;
+    display: inline-block;
     margin-bottom: 20px;
 }
 
 .Gabrielle {
     position: absolute;
     margin-left: 20px;
-    margin-top: 60px;
-    display: inline;
-    font-size: 40px;
+    margin-top: 70px;
+    display: inline-block;
+    font-size: 32px;
     line-height: 5px;
 }
 
 .floral {
     position: absolute;
     margin-left: 25px;
-    margin-top: 260px;
+    margin-top: 230px;
     color: hsl(228, 12%, 48%);
     font-size: 20px;
-    display: inline;
+    display: inline-block;
     line-height: 5px;
     font-weight: bold;
 }
@@ -53,17 +60,17 @@
 .new-price {
     position: absolute;
     margin-left: 25px;
-    margin-top: 380px;
+    margin-top: 360px;
     color: hsl(158, 36%, 37%);
     font-size: 40px;
-    display: inline;
+    display: inline-block;
     font-weight: bold;
 }
 
 .old-price {
     position: absolute;
     margin-left: 170px;
-    margin-top: 395px;
+    margin-top: 380px;
     color: hsl(228, 12%, 48%);
     display: inline;
     text-decoration: line-through;
@@ -73,7 +80,7 @@
 button {
     position: absolute;
     font-weight: bold;
-    display: inline;
+    display: inline-block;
     margin-top: 430px;
     margin-left: 20px;
     background-color: hsl(158, 36%, 37%);
@@ -87,8 +94,25 @@ button {
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 5px;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+/* @media Mobail and (max-width: 375px) {
+    .continar,
+    .body,
+    .art,
+    .image,
+    .parfum,
+    .floral,
+    .Gabrielle,
+    .new-price,
+    .old-price {
+        width: 20px;
+        height: 20px;
+    }
+} */
